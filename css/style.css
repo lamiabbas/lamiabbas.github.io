@@ -1,0 +1,13 @@
+h1 {
+  font-family: Helvetica;
+  font-size: 100px;
+  text-align: center;
+}
+
+h1 span:hover {
+  filter: invert(1);
+}
+
+body {
+  background-color: rgb(3, 19, 24);
+}
