@@ -1,33 +1,207 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lamia Abbas — People, Research, Technology & Design</title>
+    <link rel="icon" type="image/x-icon" href="images/moon.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <h1>
-      <span style="color: #ef4c4c">L</span>
-      <span style="color: #105b10">a</span>
-      <span style="color: #3662bb">m</span>
-      <span style="color: #d27878">i</span>
-      <span style="color: #c61e61">a</span>
-      &nbsp;
-      <span style="color: #ff0000">A</span>
-      <span style="color: #66cc66">b</span>
-      <span style="color: #ff9966">b</span>
-      <span style="color: #d27878">a</span>
-      <span style="color: #ff0066">s</span>
-    </h1>
+    <!-- NavBar -->
+    <nav>
+      <div class="container nav-inner">
+        <a class="brand" href="#top">Lamia Abbas</a>
+        <div class="nav-links">
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
 
-    <p>I'm hosted with GitHub Pages.</p>
-    <iframe
-      style="border-radius: 12px"
-      src="https://open.spotify.com/embed/playlist/65gdEg4u6b1aBKC0udHtZm?utm_source=generator"
-      width="100%"
-      height="352"
-      frameborder="0"
-      allowfullscreen=""
-      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-      loading="lazy"
-    ></iframe>
+    <!-- Main Content -->
+    <main id="top">
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container">
+          <!-- <div class="eyebrow">
+            <span class="status-dot"></span> Software · Research · Human
+            behavior
+          </div> -->
+          <h1>Hi, I'm Lamia.</h1>
+          <!-- <h1>
+            Understanding people.<br /><span class="headline-accent"
+              >Building technology.</span
+            >
+          </h1> -->
+          <p class="hero-copy">
+            <!-- I'm interested in why people think and behave the way they do, how
+            our brains and environments shape us, and how we can use what we
+            learn to make things better. -->
+            <!-- My background spans psychology, neuroscience, and computer science.
+            I bring a human-centered perspective to technical problems—whether
+            I’m investigating how people work, building tools, or exploring how
+            technology can better support real-world needs. -->
+          </p>
+          <div class="pills">
+            <span class="pill">Software engineering</span>
+            <span class="pill">Human-subjects research</span>
+            <span class="pill">Behavioral science</span>
+            <span class="pill">Product thinking</span>
+          </div>
+        </div>
+      </section>
+      <!-- Selected Work-->
+      <section class="section" id="work">
+        <div class="container">
+          <div class="section-head">
+            <div class="section-kicker">Selected work</div>
+            <div>
+              <!-- <h2>Different perspectives.<br />Practical outcomes.</h2> -->
+              <!-- <p class="section-intro">
+                A selection of work across software engineering, research, and
+                product problem-solving—from operational tools to systems that
+                make customer insight easier to find.
+              </p> -->
+            </div>
+          </div>
+
+          <div class="projects">
+            <a class="project" href="#fulfillment">
+              <div class="number">01</div>
+              <div>
+                <div class="meta">
+                  Mode Designs · Software Engineering + Workflow Research
+                </div>
+                <h3>
+                  Building a Fulfillment Tool for Complex Product Configurations
+                </h3>
+              </div>
+              <div>
+                <p>
+                  <strong>Problem:</strong> Fulfillment employees had to
+                  navigate complex product configurations and dependencies when
+                  assembling orders.<br /><br />
+                  <strong>Outcome:</strong> Built a custom Shopify application
+                  that translated product configurations into actionable
+                  picklists and station assignments, reducing packing time by
+                  30%.
+                </p>
+              </div>
+            </a>
+
+            <a class="project" href="#images">
+              <div class="number">02</div>
+              <div>
+                <div class="meta">
+                  Mode Designs · Software Engineering + Product Problem-Solving
+                </div>
+                <h3>
+                  Making Customer Images Discoverable for Configurable Products
+                </h3>
+              </div>
+              <div>
+                <p>
+                  <strong>Problem:</strong> Real-world photographs of
+                  configurable keyboards were scattered across internal and
+                  external sources, making them difficult to organize and
+                  display.<br /><br />
+                  <strong>Outcome:</strong> Built a full-stack image management
+                  system for tagging, searching, and displaying approximately
+                  500 customer and community photographs on Shopify product
+                  pages.
+                </p>
+              </div>
+            </a>
+
+            <a class="project" href="#ai-research">
+              <div class="number">03</div>
+              <div>
+                <div class="meta">
+                  Mode Designs · LLM Prototyping + Customer Research
+                </div>
+                <h3>Prototyping an AI-Powered Customer Research Assistant</h3>
+              </div>
+              <div>
+                <p>
+                  <strong>Problem:</strong> Finding patterns in open-ended
+                  customer survey responses required manually reviewing and
+                  organizing feedback.<br /><br />
+                  <strong>Outcome:</strong> Developed an internal prototype
+                  using LlamaIndex and OpenAI to support natural-language
+                  exploration of customer feedback.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- About Me -->
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-head">
+            <div class="section-kicker">About</div>
+            <div>
+              <p class="section-intro">
+                My interest in the human mind has taken me through psychology,
+                neuroscience, and computer science. I'm fascinated by how people
+                think and behave, how our experiences and environments shape us,
+                and how we can use what we learn to create things that are
+                genuinely useful.
+              </p>
+              <p class="section-intro">
+                My experience spans academic and clinical research, behavioral
+                health, and software engineering. I've enjoyed approaching
+                problems from different angles, whether that's investigating a
+                research question, understanding how people interact with a
+                system, or building a tool to solve a practical problem. I'm
+                particularly interested in work that brings together technology,
+                human behavior, and thoughtful design.
+              </p>
+              <!-- <h2>Curious by nature.<br />Cross-disciplinary by design.</h2> -->
+              <!-- <p class="section-intro">
+                My background spans psychology, neuroscience, and computer
+                science, shaping how I approach problems: with curiosity about
+                how people think and behave, an interest in understanding
+                complex systems, and a drive to build things that are useful in
+                the real world.
+              </p>
+              <p class="section-intro about-followup">
+                I’ve worked across software engineering, human-subjects
+                research, and clinical research. I’m drawn to work that combines
+                analytical thinking, technical problem-solving, and a deeper
+                understanding of people—whether in health technology, AI,
+                creative tools, or consumer experiences.
+              </p>
+              <p class="section-intro about-followup">
+                Outside of work, I’m usually exploring music, art, fashion, or
+                whatever else has caught my curiosity lately.
+              </p> -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Me -->
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="eyebrow">Get in touch</div>
+          <!-- <h2>Have an interesting problem to explore or build around?</h2> -->
+          <!-- <p>I'd love to connect.</p> -->
+          <p>
+            <a href="mailto:lamia97@g.ucla.edu">lamia97@g.ucla.edu</a
+            ><span class="contact-separator"> / </span
+            ><a href="#top">Back to top ↑</a>
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer><div class="container">© 2026 Lamia Abbas</div></footer>
   </body>
 </html>
