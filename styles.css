@@ -406,6 +406,7 @@ footer {
   background: #dce7ff;
   color: #13245b;
 }
+*/
 @media (max-width: 800px) {
   .container {
     width: min(calc(100% - 32px), var(--max));
@@ -480,4 +481,4 @@ footer {
   .project h3 {
     font-size: 1.15rem;
   }
-} */
+}
