@@ -587,3 +587,20 @@ footer {
     margin-top: 28px;
   }
 }
+
+.research-description {
+  margin-top: 0.5rem;
+  max-width: 680px;
+}
+
+.research-description p {
+  margin: 0 0 0.6rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  line-height: 1.75;
+}
+
+.research-description strong {
+  color: var(--ink);
+  font-weight: 700;
+}
