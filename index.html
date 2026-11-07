@@ -14,6 +14,7 @@
     />
     <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
     <script src="js/typed.js" defer></script>
+    <script src="js/modal.js" defer></script>
   </head>
   <body>
     <!-- NavBar -->
@@ -128,15 +129,154 @@
                 </p>
               </div>
             </a>
+
+            <a
+              class="project"
+              href="#ucla-research"
+              id="ucla-research"
+              aria-haspopup="dialog"
+            >
+              <div class="number">04</div>
+              <div>
+                <div class="meta">UCLA · Academic Research + Neuroscience</div>
+                <h3>
+                  Investigating Neural Responses to Socially Relevant Stimuli in
+                  Autism
+                </h3>
+              </div>
+              <div>
+                <p>
+                  <strong>Research:</strong> Examined how the brain responds to
+                  socially relevant and nonsocial aversive sounds in autistic
+                  children and adolescents.<br /><br />
+                  <strong>Contribution:</strong> Developed an independent
+                  research question examining amygdala and orbitofrontal
+                  responses to social versus nonsocial aversive sounds in
+                  autistic youth; analyzed fMRI data and presented findings at
+                  three research conferences.
+                </p>
+              </div>
+            </a>
           </div>
         </div>
       </section>
+
+      <!-- Academic & Clinical Research -->
+      <section class="section" id="academic-research">
+        <div class="container">
+          <div class="section-head research-head">
+            <div class="section-kicker">Academic & Clinical Research</div>
+
+            <div class="research-experience">
+              <div class="research-role">
+                <div class="research-date">2021–2022</div>
+                <div class="research-details">
+                  <h3>
+                    <a
+                      href="https://sites.northwestern.edu/qulab/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Northwestern University
+                    </a>
+                  </h3>
+                  <div class="meta">
+                    Culture, Brain, and Human Development Lab
+                  </div>
+                  <div class="research-position">
+                    <a
+                      href="https://sites.northwestern.edu/qulab/people/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Research Coordinator
+                    </a>
+                  </div>
+
+                  <div class="research-description">
+                    <p>
+                      <strong>Research focus:</strong> Examining how culture and
+                      social stereotypes influence adolescent development,
+                      including their effects on academics, social
+                      relationships, emotional well-being, and brain
+                      development.
+                    </p>
+                    <p>
+                      <strong>Methods:</strong> Longitudinal and experimental
+                      study designs, surveys, behavioral observations, and
+                      neuroimaging (fMRI).
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="research-role">
+                <div class="research-date">2019–2020</div>
+                <div class="research-details">
+                  <h3>Columbia University</h3>
+                  <div class="meta">
+                    Center for Autism and the Developing Brain
+                  </div>
+                  <div class="research-position">Research Assistant</div>
+                  <div class="research-description">
+                    <p>
+                      <strong>Research focus:</strong> Translating biomedical
+                      research into potential treatments for autism spectrum
+                      disorder and related syndromic conditions through clinical
+                      trials and therapeutic research.
+                    </p>
+                    <p>
+                      <strong>Methods:</strong> Clinical pharmacological trials,
+                      standardized behavioral and cognitive assessments,
+                      EEG/ECG, and biological sample collection.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="research-role">
+                <div class="research-date">2018–2019</div>
+                <div class="research-details">
+                  <h3>
+                    <a
+                      href="https://scanlab.semel.ucla.edu/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      UCLA
+                    </a>
+                  </h3>
+                  <div class="meta">
+                    Sensory, Cognitive, and Affective Neurodevelopment Lab
+                  </div>
+                  <div class="research-position">Undergraduate Researcher</div>
+                  <div class="research-description">
+                    <p>
+                      <strong>Research focus:</strong> Investigating the
+                      mechanisms underlying atypical sensory processing,
+                      particularly sensory over-responsivity, in children and
+                      adolescent clinical populations, and identifying potential
+                      interventions to improve everyday functioning and quality.
+                      of life.
+                    </p>
+                    <p>
+                      <strong>Methods:</strong> Functional neuroimaging (fMRI),
+                      psychophysiological measures, and behavioral assessments.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- About Me -->
       <section class="section" id="about">
         <div class="container">
           <div class="section-head">
             <div class="section-kicker">About</div>
-            <div>
+            <div class="about-copy">
               <p class="section-intro">
                 My interest in the human mind has taken me through psychology,
                 neuroscience, and computer science. I'm fascinated by how people
@@ -153,25 +293,6 @@
                 particularly interested in work that brings together technology,
                 human behavior, and thoughtful design.
               </p>
-              <!-- <h2>Curious by nature.<br />Cross-disciplinary by design.</h2> -->
-              <!-- <p class="section-intro">
-                My background spans psychology, neuroscience, and computer
-                science, shaping how I approach problems: with curiosity about
-                how people think and behave, an interest in understanding
-                complex systems, and a drive to build things that are useful in
-                the real world.
-              </p>
-              <p class="section-intro about-followup">
-                I’ve worked across software engineering, human-subjects
-                research, and clinical research. I’m drawn to work that combines
-                analytical thinking, technical problem-solving, and a deeper
-                understanding of people—whether in health technology, AI,
-                creative tools, or consumer experiences.
-              </p>
-              <p class="section-intro about-followup">
-                Outside of work, I’m usually exploring music, art, fashion, or
-                whatever else has caught my curiosity lately.
-              </p> -->
             </div>
           </div>
         </div>
@@ -191,5 +312,34 @@
       </section>
     </main>
     <footer><div class="container">© 2026 Lamia Abbas</div></footer>
+
+    <!-- UCLA Research Modal -->
+    <dialog class="project-modal" id="ucla-research-modal">
+      <div class="modal-content">
+        <button class="modal-close" aria-label="Close dialog">&times;</button>
+
+        <div class="meta">UCLA · Academic Research + Neuroscience</div>
+
+        <h2>
+          Investigating Neural Responses to Socially Relevant Stimuli in Autism
+        </h2>
+
+        <p>
+          For my senior thesis, I developed an independent research question
+          examining amygdala and orbitofrontal responses to social versus
+          nonsocial aversive sounds in autistic children and adolescents. I
+          analyzed fMRI data and presented my findings at three research
+          conferences.
+        </p>
+
+        <h3 class="poster-heading">Research Poster</h3>
+
+        <img
+          class="research-poster"
+          src="images/ucla-research-poster.png"
+          alt="Research poster presenting findings on neural responses to social and nonsocial aversive sounds in autistic youth"
+        />
+      </div>
+    </dialog>
   </body>
 </html>
