@@ -404,6 +404,87 @@ footer {
     font-size: 1.15rem;
   }
 }
+
+/* Academic & Clinical Research */
+
+.research-head {
+  align-items: start;
+}
+
+.research-experience {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.research-role {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 1.5rem;
+  padding: 0 0 1.7rem;
+  margin-bottom: 1.7rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.research-role:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.research-date {
+  font-family: "DM Mono", monospace;
+  font-size: 0.75rem;
+  color: var(--muted);
+  padding-top: 0.35rem;
+}
+
+.research-details h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.2rem;
+  letter-spacing: -0.04em;
+}
+
+.research-details h3 a {
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.research-details h3 a:hover {
+  color: var(--accent);
+}
+
+.research-details .meta {
+  margin-bottom: 0.35rem;
+}
+
+.research-position {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.research-position a {
+  color: inherit;
+  text-decoration-color: var(--line);
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
+}
+
+.research-position a:hover {
+  color: var(--accent);
+}
+
+@media (max-width: 640px) {
+  .research-role {
+    grid-template-columns: 1fr;
+    gap: 0.3rem;
+  }
+
+  .research-date {
+    padding-top: 0;
+  }
+}
+
 .about-copy .section-intro:first-child {
   margin-top: 0;
 }
