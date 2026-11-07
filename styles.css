@@ -404,3 +404,15 @@ footer {
     font-size: 1.15rem;
   }
 }
+.about-copy .section-intro:first-child {
+  margin-top: 0;
+}
+
+.about-copy .section-intro:last-child {
+  margin-bottom: 0;
+}
+
+#about,
+#academic-research .section-head {
+  margin-bottom: 0;
+}
