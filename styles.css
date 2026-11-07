@@ -53,12 +53,15 @@ nav {
   font-weight: 800;
   letter-spacing: -0.045em;
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
 }
-.brand::before {
-  content: "✳";
-  color: var(--accent);
-  margin-right: 9px;
-  font-size: 1.05rem;
+
+.star {
+  align-items: center;
+  width: 20px;
+  height: 20px;
 }
 .nav-links {
   display: flex;
@@ -603,4 +606,19 @@ footer {
 .research-description strong {
   color: var(--ink);
   font-weight: 700;
+}
+
+/** ANIMATION **/
+.autoRotate {
+  animation: AutoRotateAnimation;
+  animation-timeline: view(5% 5%);
+}
+
+@keyframes AutoRotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(540deg);
+  }
 }
