@@ -14,6 +14,7 @@
     />
     <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
     <script src="js/typed.js" defer></script>
+    <script src="js/modal.js" defer></script>
   </head>
   <body>
     <!-- NavBar -->
@@ -129,7 +130,12 @@
               </div>
             </a>
 
-            <a class="project" href="#ucla-research">
+            <a
+              class="project"
+              href="#ucla-research"
+              id="ucla-research"
+              aria-haspopup="dialog"
+            >
               <div class="number">04</div>
               <div>
                 <div class="meta">UCLA · Academic Research + Neuroscience</div>
@@ -264,5 +270,34 @@
       </section>
     </main>
     <footer><div class="container">© 2026 Lamia Abbas</div></footer>
+
+    <!-- UCLA Research Modal -->
+    <dialog class="project-modal" id="ucla-research-modal">
+      <div class="modal-content">
+        <button class="modal-close" aria-label="Close dialog">&times;</button>
+
+        <div class="meta">UCLA · Academic Research + Neuroscience</div>
+
+        <h2>
+          Investigating Neural Responses to Socially Relevant Stimuli in Autism
+        </h2>
+
+        <p>
+          For my senior thesis, I developed an independent research question
+          examining amygdala and orbitofrontal responses to social versus
+          nonsocial aversive sounds in autistic children and adolescents. I
+          analyzed fMRI data and presented my findings at three research
+          conferences.
+        </p>
+
+        <h3 class="poster-heading">Research Poster</h3>
+
+        <img
+          class="research-poster"
+          src="images/ucla-research-poster.png"
+          alt="Research poster presenting findings on neural responses to social and nonsocial aversive sounds in autistic youth"
+        />
+      </div>
+    </dialog>
   </body>
 </html>
